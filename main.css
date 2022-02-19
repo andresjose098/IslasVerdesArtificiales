@@ -1,0 +1,51 @@
+
+html,body{
+    font-family:'Poppins';
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+
+
+.introduccion{
+    width: 100%;
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+   font-size: 15px;
+    color:#fff;
+    font-size: 15px;
+}
+
+.tema{
+    width: 100%;
+    background-color: grey;
+    height: 50px;
+    text-align: center;
+   
+    color:#fff;
+    font-size: 15px;
+}
+
+.contenedor{
+    width: 100%;
+    background-color: #fff;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
